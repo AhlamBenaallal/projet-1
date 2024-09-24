@@ -1,0 +1,56 @@
+#hi{
+
+width: 200px;
+height: 100px;
+
+}
+.main{
+    background-image: url('background-office-bg-changed\ \(1\).jpg');
+    color: white;
+    text-align: center;
+    padding: 60px;
+    
+}
+header{
+    display: flex;
+    background-color: rgba(141,110,99,255);
+    justify-content:  space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+}
+
+
+
+    
+
+.parent{display: flex;
+    justify-content: space-around;
+    align-self: center;
+    row-gap:auto ;
+    margin: 20px;
+}
+.parent>div{  text-align: center;
+    background-color:rgba(215,204,200,255) ; 
+padding: 20px;
+width: 30%; 
+border-radius: 10px;}
+
+.parent div img{
+    width: 225px;;
+    height: 225px; 
+border-radius: 20px;
+border-radius:20px;
+
+  }
+  .fin{
+   text-align: center;
+   padding: 70px;
+   background-color: #efebe9;
+   
+  }
